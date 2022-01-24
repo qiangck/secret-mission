@@ -1,0 +1,14 @@
+.form-submit {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background: rgb(249, 249, 249);
+  height: 50px;
+  line-height: 50px;
+  border-top: 1px solid rgb(221, 221, 221);
+  border-left: 1px solid rgb(221, 221, 221);
+  padding-right: 10px;
+  padding-left: 10px;
+}

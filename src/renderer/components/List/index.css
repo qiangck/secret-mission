@@ -1,0 +1,20 @@
+.list-search-box {
+  padding: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background: #eee;
+
+}
+
+.list-data-box {
+  position: absolute;
+  top: 42px;
+  left: 0;
+  right: 0;
+  bottom: 50px;
+  overflow: scroll;
+  padding: 0 10px;
+}

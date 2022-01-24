@@ -1,0 +1,17 @@
+.list-item .username {
+  color: #999999;
+}
+
+.list-item .projectname {
+  color: #333333;
+}
+
+.list-item.isHover {
+  background: #1890ff;
+  color: #fff;
+}
+
+.list-item.isHover .username,
+.list-item.isHover .projectname {
+  color: #fff;
+}

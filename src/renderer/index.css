@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.List,
+.Form {
+  position: relative;
+  height: 100vh;
+  background: #ffffff;
+}
+
+.outwindow .win-input-box {
+  background: #1f1f1f;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.outwindow .win-input-box .input {
+  height: 100%;
+  flex: 1;
+}
+
+.outwindow .win-input-box .input input {
+  width: 100%;
+  height: 100%;
+  caret-color: #fff;
+  background: #1f1f1f;
+  font-size: 30px;
+  outline: none;
+  border: none;
+  color: #fff;
+}
+
+.outwindow .win-input-box .icon {
+  background: url('../../assets/icon.png') no-repeat center center/60%;
+  width: 60px;
+  height: 60px;
+}
